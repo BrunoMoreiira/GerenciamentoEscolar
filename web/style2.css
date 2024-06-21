@@ -1,0 +1,154 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 4 de jun. de 2024, 13:32:16
+    Author     : Bruno
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-user {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background: #333;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+table{
+    border-collapse:unset;
+    border-spacing: 0.5px;
+    border-radius: 10px; 
+    align-items: center;
+}
+
+thead {
+    height: 45px;
+    background: #76ABAE;
+}
+
+tr {
+    height: 45px;
+}
+
+
+tbody{
+    height: 50%;
+    background: #31363F;
+}
+
+table, th, td {
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+
+a {
+   text-decoration: none; 
+   align-items: center;
+   justify-content: center;
+ 
+}
+
+
+.btn-item {
+    height: 30px;
+    width: 90px;
+    background-color: #F97300;
+    color: #fff;
+}
+
+.btn-item2 {
+    height: 30px;
+    width: 90px;
+    background-color: #D21312;
+    color: #fff;
+}
+
+.btn-item, .btn-item2 {
+    display: inline-block;
+    justify-content: center; /* Alinha o texto horizontalmente ao centro */
+    align-items: center; /* Alinha o texto verticalmente ao centro */
+    height: 30px;
+}
+
+
+.container-user1 {
+    justify-content: center;
+    width: 40%;
+    height: 65%;    
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background: #333;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.input-group {
+    margin-bottom: 1em;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    width: 350px;   
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.btn-item3 {
+    height: 40px;
+    width: 120px;
+    background-color: #F97300;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
